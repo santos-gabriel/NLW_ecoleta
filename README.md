@@ -1,4 +1,4 @@
-# NLW_ecoleta
+# ECOLETA
 >Projeto desenvolvido durante o Next Level Week NLW, evento oferecido pela rocketseat.<br>
 EColeta é uma aplicação web, onde se pode cadastrar pontos de coleta de resíduos recicláveis, eletrônicos, orgânicos dentre outros.
 EColeta oferece uma busca de pontos de coleta, facilitando e incentivanto então a reciclagem e preservando o meio ambiente.
