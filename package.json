@@ -1,5 +1,5 @@
 {
-  "name": "NLW",
+  "name": "nlw",
   "version": "1.0.0",
   "description": "Projeto desenvolvido durante o evento Next Level Week\r NLW ou Next Level Week é um evento este oferecido pela rocketseat",
   "main": "src/server.js",
