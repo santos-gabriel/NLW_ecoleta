@@ -10,6 +10,7 @@ EColeta oferece uma busca de pontos de coleta, facilitando e incentivanto então
 ![nunjucks][img-nunjucks]
 ![NPM Version][img-npm]
 ![NODE Version][img-node]
+![Last Commit][img-last-commit]
 
 
 
@@ -18,6 +19,7 @@ EColeta oferece uma busca de pontos de coleta, facilitando e incentivanto então
 [img-github]: https://github.com/favicon.ico
 [img-npm]: https://img.shields.io/static/v1?label=npm&message=v6.4.14&color=green
 [img-node]: https://img.shields.io/static/v1?label=node&message=v12.18.0&color=green
+[img-last-commit]: https://img.shields.io/github/last-commit/santos-gabriel/nlw_ecoleta
 [img-css]: https://user-images.githubusercontent.com/42524755/84093323-468a9380-a9d0-11ea-905b-658914d470c7.png
 [img-html]: https://user-images.githubusercontent.com/42524755/84093467-a97c2a80-a9d0-11ea-937b-a81b8cf2c0a0.png
 [img-js]: https://user-images.githubusercontent.com/42524755/84093913-ebf23700-a9d1-11ea-9cd7-f0333994d217.png
