@@ -1,5 +1,5 @@
 #node
 node_modules/
 
-#database
-src/database/
+#environment variables
+.env
