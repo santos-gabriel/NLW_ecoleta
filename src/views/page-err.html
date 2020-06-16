@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    <title>{{err.title}}</title>
+{% endblock title %}
+
+{% set pageId = "page-not-found" %}
+
+{% block styles %}
+    <link rel="stylesheet" href="/styles/page-err.css">
+{% endblock styles %}
+
+{% block content %}
+    <div id="message">
+        <h1>{{err.code}}</h1>
+        <h2>{{err.title}}</h2>
+    </div>
+{% endblock content %}
