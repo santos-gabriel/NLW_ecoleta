@@ -55,28 +55,10 @@ let selectedItems = []
 
 function handleSelectedItem(event){
     const itemLi = event.target
-    itemLi.classList.toggle("selected")     /*adicionar ou remover uma classe com javascript
-                                              classList.add -> adiciona uma classe
-                                              classList.remove -> remove uma classe
-                                              classList.toggle -> adiciona ou remove uma classe
-                                            */
+    itemLi.classList.toggle("selected")     
     
     const itemId = itemLi.dataset.id
 
-    //verificar se existem itens selecionados, se sim
-    //pegar os itens selecionados
-    /*const alreadySelected = selectedItems.findIndex(item => { //CÓDIGO NÃO REFATORADO
-        const itemFound = item == itemId
-        return itemFound
-    })*/
-
-    //se já estiver selecionado
-    /*if (alreadySelected != -1){ //CÓDIGO NÃO REFATORADO
-        //tirar da seleção
-        const filteredItems = selectedItems.filter(item => {
-            const itemIsDifferent = item != itemId
-            return itemIsDifferent
-        })*/
     if (selectedItems.findIndex(item => item == itemId) != -1){ //CÓDIGO REFATORADO
 
         selectedItems = selectedItems.filter(item => item != itemId)
